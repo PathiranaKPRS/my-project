@@ -5,7 +5,7 @@
 
 
 import random
-words = ["Germany","Canada","Denmark","Finland","Austria"]
+words = ["Germany","Canada","Denmark","Finland","Austria","India","Srilanka","France"]
 word = random.choice(words)
 trys = 10
 Sec_word = word[0] + "_" * (len(word) - 1)
@@ -34,5 +34,6 @@ while not game_over:
     if trys == 0:
         print("Oops, You lost !")
         game_over = True   
+
 
 

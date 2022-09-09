@@ -19,7 +19,7 @@ elif(Units<=156):
 elif(Units>=157):
     Cost = 3053.70 + ((Units-156) * 45.00)
 Total = Fixed_Charge + Cost
-print("Your Electricity Bill is Rs.",Total)
+print("Your Electricity Bill for the Month is Rs.",Total)
 
 
 # In[ ]:
