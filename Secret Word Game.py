@@ -5,7 +5,7 @@
 
 
 import random
-words = ["Germany","Canada","Denmark","Finland","Austria","India","Srilanaka","France"]
+words = ["Germany","Canada","Denmark","Finland","Austria","India","Srilanka","France"]
 word = random.choice(words)
 trys = 10
 Sec_word = word[0] + "_" * (len(word) - 1)
